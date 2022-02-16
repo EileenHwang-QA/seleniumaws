@@ -21,7 +21,7 @@ options.add_argument("--disable-infobars")
 options.add_argument("--disable-dev-shm-usage")
 
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(options=options)
 
 #driver = webdriver.Chrome('C:/Users/eilee/PycharmProjects/python_cctb/chromedriver.exe')
 
