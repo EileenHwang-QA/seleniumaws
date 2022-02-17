@@ -1,5 +1,4 @@
 import datetime
-import pytest
 import sys
 import moodle_locators as locators
 from time import sleep
